@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja" 　xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta hhtp-equiv="Content-Type" content="text/html, charset=UTF-8" />
+    <title>進数変換</title>
+  </head>
+  <body>
+    <h1>進数変換</h1>
+    <p th:text="${msg}">please wait ...</p>
+    <form action="/" method="POST">
+      <input type="text" name="num" th:value="${value}" />
+      <input type="submit" value="click" />
+    </form>
+  </body>
+</html>
